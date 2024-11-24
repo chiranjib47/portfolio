@@ -1,0 +1,20 @@
+/* .flip-anim {
+  width: 8rem;
+  height: 10rem;
+}
+
+.flip-anim:hover {
+  width: 80rem;
+  height: 100rem;
+} */
+.back-shadow-spring {
+  box-shadow: rgba(109, 241, 76, 0.56) 0px 22px 70px 4px;
+}
+
+.back-shadow-angular {
+  box-shadow: rgba(241, 81, 76, 0.56) 0px 22px 70px 4px;
+}
+
+.back-shadow-react {
+  box-shadow: rgba(76, 208, 241, 0.56) 0px 22px 70px 4px;
+}
