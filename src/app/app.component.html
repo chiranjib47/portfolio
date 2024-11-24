@@ -1,3 +1,4 @@
-<div class="full-container bg-dark">
+<div class="full-container" [ngClass]="isDarkMode ? 'bg-dark' : 'bg-light'">
+    <app-navbar (modeEmitter) = "darkOrLight($event)"></app-navbar>
     <router-outlet></router-outlet>
 </div>
