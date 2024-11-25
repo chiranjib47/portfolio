@@ -6,7 +6,7 @@ import { Component, EventEmitter, Output, Renderer2 } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
-  isDarkMode = false;
+  isDarkMode = true;
   @Output() modeEmitter = new EventEmitter<boolean>();
 
   toggleDarkMode() {
