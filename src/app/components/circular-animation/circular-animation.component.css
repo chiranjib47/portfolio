@@ -1,8 +1,8 @@
 .center {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-  }
-  svg {
-    overflow: visible;
-  }
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+svg {
+  overflow: visible;
+}
