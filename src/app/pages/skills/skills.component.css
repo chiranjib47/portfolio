@@ -18,3 +18,10 @@
 .back-shadow-react {
   box-shadow: rgba(76, 208, 241, 0.56) 0px 22px 70px 4px;
 }
+
+/* Add a bit of margin for mobile views */
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
